@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Большой дом</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css" />
+    <script src="Script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+</head>
+<body>
+
+    <div class="grid-container grid-head">
+        <div class="flex-container logo">
+            <img src="./img/Лого.png" alt="Лого" width="106">
+            <p class="text_logo">Большой дом</p>
+        </div>
+
+        <button class="flex-container button_info">
+            info@bighouse.ru
+            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13 0C10.4288 0 7.91543 0.762437 5.77759 2.1909C3.63975 3.61935 1.97351 5.64968 0.989572 8.02512C0.0056327 10.4006 -0.251811 13.0144 0.249797 15.5362C0.751405 18.0579 1.98953 20.3743 3.80762 22.1924C5.6257 24.0105 7.94208 25.2486 10.4638 25.7502C12.9856 26.2518 15.5995 25.9944 17.9749 25.0104C20.3503 24.0265 22.3807 22.3603 23.8091 20.2224C25.2376 18.0846 26 15.5712 26 13C25.9934 9.55422 24.6216 6.25145 22.1851 3.81491C19.7486 1.37837 16.4458 0.00660747 13 0ZM18.925 13.3875C18.8705 13.5087 18.7942 13.6188 18.7 13.7125L14.4625 17.95C14.3717 18.0433 14.2628 18.117 14.1424 18.1665C14.022 18.2159 13.8927 18.2401 13.7625 18.2375C13.6305 18.2403 13.4992 18.2163 13.3767 18.1669C13.2543 18.1175 13.1431 18.0437 13.05 17.95C12.863 17.7625 12.758 17.5085 12.758 17.2437C12.758 16.979 12.863 16.725 13.05 16.5375L15.5875 14H8.00001C7.73479 14 7.48044 13.8946 7.2929 13.7071C7.10536 13.5196 7.00001 13.2652 7.00001 13C7.00001 12.7348 7.10536 12.4804 7.2929 12.2929C7.48044 12.1054 7.73479 12 8.00001 12H15.5875L13.05 9.4625C12.8776 9.27227 12.785 9.02305 12.7914 8.76643C12.7977 8.50982 12.9024 8.26545 13.0839 8.08394C13.2655 7.90243 13.5098 7.79767 13.7664 7.79135C14.0231 7.78503 14.2723 7.87764 14.4625 8.05L18.7 12.2875C18.7942 12.3812 18.8705 12.4913 18.925 12.6125C19.0251 12.8611 19.0251 13.1389 18.925 13.3875Z" 
+                      fill="#111016"/>
+            </svg>
+        </button>
+    </div>
+
+    <div class="grid-container block1">
+        <div>
+            <h1 class="h1">Большой дом -</h1>
+            <p>динамичная многопрофильная <br>проектно-строительная компания, <br>работающая в следующих секторах:</p>
+
+            <div class="flex-container flex_alternativ_text">
+                <p class="alternativ_text">ТЕХНИЧЕСКИЙ</p>
+                <p class="alternativ_text">ЖИЛОЙ</p>
+                <p class="alternativ_text">КОММЕРЧЕСКИЙ</p>
+            </div>
+
+            <button class="button_main" onclick="document.getElementById('target-section').scrollIntoView({ behavior: 'smooth' });">
+                Оставить заявку
+            </button>
+        </div>
+
+        <img src="./img/Дом1.png" alt="Дом" class="house1">
+    </div>
+
+    <h2 class="h2">О нас</h2>
+
+    <div class="flex-container block2">
+        <div class="flex-container o_nas_panel">
+            <p class="numbers">01</p>
+            <p class="o_nas">
+                Мы выполняем качественные и <br>
+                экономичные проекты, <br>
+                которые превышают стандарты <br>
+                и гарантируют <br>
+                удовлетворённость клиентов
+            </p>
+        </div>
+
+        <div class="flex-container o_nas_panel">
+            <p class="numbers">02</p>
+            <p class="o_nas">
+                Мы стремимся обеспечить <br>
+                отличное качество <br>
+                и инновационные <br>
+                строительные решения
+            </p>
+        </div>
+
+        <div class="flex-container o_nas_panel">
+            <p class="numbers">03</p>
+            <p class="o_nas">
+                Наш подход ключ к успеху, <br>
+                и проекты демонстрируют <br>
+                навыки и талант команды <br>
+                во всех сферах
+            </p>
+        </div>
+    </div>
+
+    <div class="flex-container block3">
+        <img src="./img/Дом2.png" alt="Дом" class="house2">
+        <p class="text_block3">
+            Мы выполним весь комплекс работ под ключ — <br>
+            от фундамента до внутренней отделки помещений
+        </p>
+    </div>
+
+    <h2 class="h2">Карьера</h2>
+
+    <section>
+        <div id="slider">
+            <div class="slide block4">
+
+                <img class="slider-image" src="./img/Карьера1.png" alt="img">
+                <p class="flex-container slider-text">
+                    Большой дом создаёт среду,<br>
+                    которая поощряет совместный<br>
+                    подход и профессиональный рост.<br><br>
+                    У нас работают талантливые<br>
+                    и целеустремлённые, кто может<br>
+                    доказать, что они работают<br>
+                    по собственной инициативе<br>
+                    в сложной среде.
+                </p>
+
+            </div>
+
+            <div class="slide block4">
+
+                <img class="slider-image" src="./img/Карьера2.png" alt="img">
+                <p class="flex-container slider-text">
+                    Большой дом создаёт среду,<br>
+                    которая поощряет совместный<br>
+                    подход и профессиональный рост.<br><br>
+                    У нас работают талантливые<br>
+                    и целеустремлённые, кто может<br>
+                    доказать, что они работают<br>
+                    по собственной инициативе<br>
+                    в сложной среде.
+                </p>
+
+            </div>
+
+            <div class="slide block4">
+
+                <img class="slider-image" src="./img/Дом3.png" alt="img">
+                <p class="flex-container slider-text">
+                    Большой дом создаёт среду,<br>
+                    которая поощряет совместный<br>
+                    подход и профессиональный рост.<br><br>
+                    У нас работают талантливые<br>
+                    и целеустремлённые, кто может<br>
+                    доказать, что они работают<br>
+                    по собственной инициативе<br>
+                    в сложной среде.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        bulmaCarousel.attach('#slider', {
+            slidesToScroll: 1,
+            slidesToShow: 1,
+            infinite: true,
+            autoplay: true,
+        });
+    </script>
+
+    <form id="target-section" class="box block5">
+
+        <h2 class="h3">Оставить заявку</h2>
+
+        <div class="flex-container forms">
+
+            <input class="input form" type="text" placeholder="Имя" />
+
+            <input class="input form" type="email" placeholder="E-mail" />
+
+            <input class="input form" type="tel" placeholder="Номер телефона" />
+
+        </div>
+
+        <button class="button_main">Отправить</button>
+
+    </form>
+
+    <footer class="grid-container grid-foot">
+
+        <div>
+            <h2 class="h3 foot_h3">Контакты</h2>
+            <p class="foot_text">info@bighouse.ru</p>
+            <p class="foot_text">+78121112233</p>
+            <p class="foot_text">
+                Россия, 191186, Санкт-Петербург,<br>
+                ул. Большая Морская, 18
+            </p>
+        </div>
+
+        <iframe class="map" 
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A1a442bc4b8e1da411819a9abc0ccb3d052f29dd1937635a7787a0597755a13fe&amp;source=constructor">
+        </iframe>
+
+    </footer>
+
+</body>
+</html>
